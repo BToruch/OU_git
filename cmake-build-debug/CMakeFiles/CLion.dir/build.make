@@ -61,57 +61,36 @@ include CMakeFiles\CLion.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\CLion.dir\flags.make
 
-CMakeFiles\CLion.dir\main.cpp.obj: CMakeFiles\CLion.dir\flags.make
-CMakeFiles\CLion.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Dokumenty\Studia\Dante\CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLion.dir/main.cpp.obj"
-	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CLion.dir\main.cpp.obj /FdCMakeFiles\CLion.dir\ /FS -c D:\Dokumenty\Studia\Dante\CLion\main.cpp
-<<
-
-CMakeFiles\CLion.dir\main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLion.dir/main.cpp.i"
-	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\CLion.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Dokumenty\Studia\Dante\CLion\main.cpp
-<<
-
-CMakeFiles\CLion.dir\main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLion.dir/main.cpp.s"
-	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CLion.dir\main.cpp.s /c D:\Dokumenty\Studia\Dante\CLion\main.cpp
-<<
-
 CMakeFiles\CLion.dir\main.c.obj: CMakeFiles\CLion.dir\flags.make
-CMakeFiles\CLion.dir\main.c.obj: main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Dokumenty\Studia\Dante\CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CLion.dir/main.c.obj"
+CMakeFiles\CLion.dir\main.c.obj: ..\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Dokumenty\Studia\Dante\CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CLion.dir/main.c.obj"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\CLion.dir\main.c.obj /FdCMakeFiles\CLion.dir\ /FS -c D:\Dokumenty\Studia\Dante\CLion\cmake-build-debug\main.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\CLion.dir\main.c.obj /FdCMakeFiles\CLion.dir\ /FS -c D:\Dokumenty\Studia\Dante\CLion\main.c
 <<
 
 CMakeFiles\CLion.dir\main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CLion.dir/main.c.i"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\CLion.dir\main.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Dokumenty\Studia\Dante\CLion\cmake-build-debug\main.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Dokumenty\Studia\Dante\CLion\main.c
 <<
 
 CMakeFiles\CLion.dir\main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CLion.dir/main.c.s"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\CLion.dir\main.c.s /c D:\Dokumenty\Studia\Dante\CLion\cmake-build-debug\main.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\CLion.dir\main.c.s /c D:\Dokumenty\Studia\Dante\CLion\main.c
 <<
 
 # Object files for target CLion
 CLion_OBJECTS = \
-"CMakeFiles\CLion.dir\main.cpp.obj" \
 "CMakeFiles\CLion.dir\main.c.obj"
 
 # External object files for target CLion
 CLion_EXTERNAL_OBJECTS =
 
-CLion.exe: CMakeFiles\CLion.dir\main.cpp.obj
 CLion.exe: CMakeFiles\CLion.dir\main.c.obj
 CLion.exe: CMakeFiles\CLion.dir\build.make
 CLion.exe: CMakeFiles\CLion.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Dokumenty\Studia\Dante\CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CLion.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Dokumenty\Studia\Dante\CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable CLion.exe"
 	"D:\Programy\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\CLion.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\CLion.dir\objects1.rsp @<<
  /out:CLion.exe /implib:CLion.lib /pdb:D:\Dokumenty\Studia\Dante\CLion\cmake-build-debug\CLion.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

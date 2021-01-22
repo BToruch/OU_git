@@ -82,10 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Dokumenty/Studia/Dante/CLion/cmake-build-debug/main.c">
-			<Option target="CLion"/>
-		</Unit>
-		<Unit filename="D:/Dokumenty/Studia/Dante/CLion/main.cpp">
+		<Unit filename="D:/Dokumenty/Studia/Dante/CLion/main.c">
 			<Option target="CLion"/>
 		</Unit>
 		<Unit filename="D:/Dokumenty/Studia/Dante/CLion/CMakeLists.txt">

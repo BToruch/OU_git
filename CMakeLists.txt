@@ -3,4 +3,4 @@ project(CLion)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CLion cmake-build-debug/main.c)
+add_executable(CLion main.c)
